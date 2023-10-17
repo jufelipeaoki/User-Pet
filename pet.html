@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro2</title>
-    <link rel="stylesheet" href="pet.css">
+    <link rel="stylesheet" href="/css/pet.css">
 </head>
 <body>
     <section>
@@ -27,29 +27,27 @@
                <input type="date" name="data" required>
             </div>
 
-         
-             <div class="input-box">
-                <span class="icon"><i class="fa-solid fa-dog"></i></i></span>
-            <input type="text"name="personalidade" required>
-            <label for="">Personalidade(dócil/rude) :</label>
-
-            </div>
-
-             <div class="input-box">
+            <!--<div class="input-box">
                 <span class="icon"><i class="fa-solid fa-phone"></i></span>
                <input type="tel" name="tel" required>
                 <label >Tel:</label>
+            </div>-->
+
+            
+            <div class="escolhas"> 
+                <label for="">Masculino:</label>
+                <span class="icon"></span>
+                <input type="radio" name="escolhas" required>
+                
+                <label for="">Feminino:</label>
+                 <input type="radio" name="escolhas" required>
+
             </div>
 
 
+            
 
-            <div class="input-box">
-                <span class="icon"><i class="fa-solid fa-lock"></i></span>
-               <input type="text"name="castrado" required>
-                <label >Castrado? </label>
-            </div>
-
-                 <button type="submit" value="Entrar">Entrar!</button>
+                 <button type="submit" value="Entrar">Cadastrar!</button>
                  <div class="register-links">
                     <p>Já Possui uma conta? <a href="">Login!</a></p>
                  </div>
